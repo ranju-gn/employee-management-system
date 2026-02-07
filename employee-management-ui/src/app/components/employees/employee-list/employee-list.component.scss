@@ -1,0 +1,53 @@
+.table-toolbar {
+  display: flex;
+  gap: 16px;
+  margin-bottom: 24px;
+  align-items: center;
+
+  .search-field {
+    flex: 1;
+    max-width: 500px;
+  }
+}
+
+.table-container {
+  overflow-x: auto;
+}
+
+.employee-info {
+  display: flex;
+  align-items: center;
+  gap: 12px;
+
+  .avatar {
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+    background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
+    color: white;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-weight: 600;
+    font-size: 14px;
+  }
+
+  .employee-name {
+    font-weight: 600;
+    color: #333;
+  }
+
+  .employee-email {
+    font-size: 12px;
+    color: #666;
+  }
+}
+
+.salary-amount {
+  font-weight: 600;
+  color: #26de81;
+}
+
+mat-chip {
+  font-size: 12px;
+}

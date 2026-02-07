@@ -1,0 +1,233 @@
+<h2 mat-dialog-title>
+  <mat-icon>{{ mode === "create" ? "person_add" : "edit" }}</mat-icon>
+  {{ mode === "create" ? "Add New Employee" : "Edit Employee" }}
+</h2>
+
+<mat-dialog-content>
+  <form [formGroup]="employeeForm">
+    <div class="form-section">
+      <h3>Personal Information</h3>
+      <div class="form-grid">
+        <mat-form-field appearance="outline">
+          <mat-label>First Name</mat-label>
+          <input
+            matInput
+            formControlName="firstName"
+            placeholder="Enter first name"
+          />
+          <mat-icon matPrefix>person</mat-icon>
+          <mat-error
+            *ngIf="employeeForm.get('firstName')?.hasError('required')"
+          >
+            First name is required
+          </mat-error>
+        </mat-form-field>
+
+        <mat-form-field appearance="outline">
+          <mat-label>Last Name</mat-label>
+          <input
+            matInput
+            formControlName="lastName"
+            placeholder="Enter last name"
+          />
+          <mat-icon matPrefix>person</mat-icon>
+          <mat-error *ngIf="employeeForm.get('lastName')?.hasError('required')">
+            Last name is required
+          </mat-error>
+        </mat-form-field>
+
+        <mat-form-field appearance="outline">
+          <mat-label>Email</mat-label>
+          <input
+            matInput
+            type="email"
+            formControlName="email"
+            placeholder="Enter email"
+          />
+          <mat-icon matPrefix>email</mat-icon>
+          <mat-error *ngIf="employeeForm.get('email')?.hasError('required')">
+            Email is required
+          </mat-error>
+          <mat-error *ngIf="employeeForm.get('email')?.hasError('email')">
+            Invalid email format
+          </mat-error>
+        </mat-form-field>
+
+        <mat-form-field appearance="outline">
+          <mat-label>Phone Number</mat-label>
+          <input
+            matInput
+            formControlName="phoneNumber"
+            placeholder="Enter 10-digit number"
+          />
+          <mat-icon matPrefix>phone</mat-icon>
+          <mat-error
+            *ngIf="employeeForm.get('phoneNumber')?.hasError('pattern')"
+          >
+            Must be 10 digits
+          </mat-error>
+        </mat-form-field>
+
+        <mat-form-field appearance="outline">
+          <mat-label>Date of Birth</mat-label>
+          <input
+            matInput
+            [matDatepicker]="dobPicker"
+            formControlName="dateOfBirth"
+            [max]="maxDate"
+          />
+          <mat-datepicker-toggle
+            matSuffix
+            [for]="dobPicker"
+          ></mat-datepicker-toggle>
+          <mat-datepicker #dobPicker></mat-datepicker>
+          <mat-error
+            *ngIf="employeeForm.get('dateOfBirth')?.hasError('required')"
+          >
+            Date of birth is required
+          </mat-error>
+        </mat-form-field>
+
+        <mat-form-field appearance="outline">
+          <mat-label>Gender</mat-label>
+          <mat-select formControlName="gender">
+            <mat-option value="Male">Male</mat-option>
+            <mat-option value="Female">Female</mat-option>
+            <mat-option value="Other">Other</mat-option>
+          </mat-select>
+          <mat-error *ngIf="employeeForm.get('gender')?.hasError('required')">
+            Gender is required
+          </mat-error>
+        </mat-form-field>
+      </div>
+    </div>
+
+    <div class="form-section">
+      <h3>Employment Details</h3>
+      <div class="form-grid">
+        <mat-form-field appearance="outline">
+          <mat-label>Joining Date</mat-label>
+          <input
+            matInput
+            [matDatepicker]="joiningPicker"
+            formControlName="joiningDate"
+          />
+          <mat-datepicker-toggle
+            matSuffix
+            [for]="joiningPicker"
+          ></mat-datepicker-toggle>
+          <mat-datepicker #joiningPicker></mat-datepicker>
+          <mat-error
+            *ngIf="employeeForm.get('joiningDate')?.hasError('required')"
+          >
+            Joining date is required
+          </mat-error>
+        </mat-form-field>
+
+        <mat-form-field appearance="outline">
+          <mat-label>Department</mat-label>
+          <mat-select formControlName="departmentId">
+            <mat-option *ngFor="let dept of departments" [value]="dept.id">
+              {{ dept.name }}
+            </mat-option>
+          </mat-select>
+          <mat-error
+            *ngIf="employeeForm.get('departmentId')?.hasError('required')"
+          >
+            Department is required
+          </mat-error>
+        </mat-form-field>
+
+        <mat-form-field appearance="outline">
+          <mat-label>Designation</mat-label>
+          <mat-select formControlName="designationId">
+            <mat-option
+              *ngFor="let designation of designations"
+              [value]="designation.id"
+            >
+              {{ designation.title }}
+            </mat-option>
+          </mat-select>
+          <mat-error
+            *ngIf="employeeForm.get('designationId')?.hasError('required')"
+          >
+            Designation is required
+          </mat-error>
+        </mat-form-field>
+
+        <mat-form-field appearance="outline">
+          <mat-label>Reporting Manager</mat-label>
+          <mat-select formControlName="reportingManagerId">
+            <mat-option [value]="null">None</mat-option>
+            <mat-option *ngFor="let manager of managers" [value]="manager.id">
+              {{ manager.fullName }}
+            </mat-option>
+          </mat-select>
+        </mat-form-field>
+      </div>
+    </div>
+
+    <div class="form-section">
+      <h3>Address Information</h3>
+      <div class="form-grid">
+        <mat-form-field appearance="outline" class="full-width">
+          <mat-label>Address</mat-label>
+          <textarea
+            matInput
+            formControlName="address"
+            rows="2"
+            placeholder="Enter address"
+          ></textarea>
+          <mat-icon matPrefix>home</mat-icon>
+        </mat-form-field>
+
+        <mat-form-field appearance="outline">
+          <mat-label>City</mat-label>
+          <input matInput formControlName="city" placeholder="Enter city" />
+        </mat-form-field>
+
+        <mat-form-field appearance="outline">
+          <mat-label>State</mat-label>
+          <input matInput formControlName="state" placeholder="Enter state" />
+        </mat-form-field>
+
+        <mat-form-field appearance="outline">
+          <mat-label>Country</mat-label>
+          <input
+            matInput
+            formControlName="country"
+            placeholder="Enter country"
+          />
+        </mat-form-field>
+
+        <mat-form-field appearance="outline">
+          <mat-label>Postal Code</mat-label>
+          <input
+            matInput
+            formControlName="postalCode"
+            placeholder="Enter postal code"
+          />
+        </mat-form-field>
+      </div>
+    </div>
+
+    <div class="form-section" *ngIf="mode === 'edit'">
+      <mat-slide-toggle formControlName="isActive">
+        Active Status
+      </mat-slide-toggle>
+    </div>
+  </form>
+</mat-dialog-content>
+
+<mat-dialog-actions class="dialog-actions">
+  <button mat-button (click)="onCancel()" [disabled]="loading">Cancel</button>
+  <button
+    mat-raised-button
+    color="primary"
+    (click)="onSubmit()"
+    [disabled]="loading || employeeForm.invalid"
+  >
+    <mat-spinner *ngIf="loading" diameter="20"></mat-spinner>
+    <span *ngIf="!loading">{{ mode === "create" ? "Create" : "Update" }}</span>
+  </button>
+</mat-dialog-actions>

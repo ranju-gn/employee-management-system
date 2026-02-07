@@ -1,0 +1,44 @@
+<mat-toolbar class="navbar">
+  <div class="navbar-content">
+    <div class="navbar-brand">
+      <mat-icon>business</mat-icon>
+      <span>Employee Management</span>
+    </div>
+
+    <nav class="navbar-menu">
+      <a mat-button routerLink="/dashboard" routerLinkActive="active">
+        <mat-icon>dashboard</mat-icon>
+        Dashboard
+      </a>
+      <a mat-button routerLink="/employees" routerLinkActive="active">
+        <mat-icon>people</mat-icon>
+        Employees
+      </a>
+      <a mat-button routerLink="/departments" routerLinkActive="active">
+        <mat-icon>business</mat-icon>
+        Departments
+      </a>
+      <a mat-button routerLink="/designations" routerLinkActive="active">
+        <mat-icon>work</mat-icon>
+        Designations
+      </a>
+    </nav>
+
+    <div class="navbar-actions">
+      <button mat-icon-button [matMenuTriggerFor]="userMenu">
+        <mat-icon>account_circle</mat-icon>
+      </button>
+      <mat-menu #userMenu="matMenu">
+        <div class="user-info" mat-menu-item disabled>
+          <strong>{{ (authService.currentUser$ | async)?.username }}</strong>
+          <small>{{ (authService.currentUser$ | async)?.role }}</small>
+        </div>
+        <mat-divider></mat-divider>
+        <button mat-menu-item (click)="logout()">
+          <mat-icon>logout</mat-icon>
+          Logout
+        </button>
+      </mat-menu>
+    </div>
+  </div>
+</mat-toolbar>

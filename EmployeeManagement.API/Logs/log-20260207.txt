@@ -1,0 +1,188 @@
+2026-02-07 19:38:57.691 +05:30 [INF] Starting Employee Management API
+2026-02-07 19:43:00.354 +05:30 [INF] Starting Employee Management API
+2026-02-07 19:47:14.738 +05:30 [INF] Request: OPTIONS /api/auth/login completed in 7ms
+2026-02-07 19:47:23.251 +05:30 [INF] User admin logged in successfully
+2026-02-07 19:47:23.281 +05:30 [WRN] Slow request: POST /api/auth/login took 8503ms
+2026-02-07 19:47:23.369 +05:30 [INF] Request: OPTIONS /api/designations completed in 1ms
+2026-02-07 19:47:23.369 +05:30 [INF] Request: OPTIONS /api/employees completed in 0ms
+2026-02-07 19:47:23.369 +05:30 [INF] Request: OPTIONS /api/departments completed in 1ms
+2026-02-07 19:47:23.569 +05:30 [WRN] You do not have a valid license key for the Lucky Penny software AutoMapper. This is allowed for development and testing scenarios. If you are running in production you are required to have a licensed version. Please visit https://luckypennysoftware.com to obtain a valid license.
+2026-02-07 19:47:23.776 +05:30 [INF] Retrieved 0 employees (Page 1 of 0)
+2026-02-07 19:47:23.799 +05:30 [INF] Request: GET /api/employees completed in 415ms
+2026-02-07 19:47:23.805 +05:30 [INF] Request: GET /api/designations completed in 428ms
+2026-02-07 19:47:23.806 +05:30 [INF] Request: GET /api/departments completed in 419ms
+2026-02-07 19:47:34.961 +05:30 [INF] Request: OPTIONS /api/employees completed in 0ms
+2026-02-07 19:47:35.058 +05:30 [INF] Retrieved 0 employees (Page 1 of 0)
+2026-02-07 19:47:35.069 +05:30 [INF] Request: GET /api/employees completed in 95ms
+2026-02-07 19:47:36.905 +05:30 [INF] Request: OPTIONS /api/departments completed in 0ms
+2026-02-07 19:47:37.167 +05:30 [INF] Request: GET /api/departments completed in 32ms
+2026-02-07 19:47:40.070 +05:30 [INF] Request: OPTIONS /api/designations completed in 0ms
+2026-02-07 19:47:40.134 +05:30 [INF] Request: GET /api/designations completed in 13ms
+2026-02-07 19:47:42.255 +05:30 [INF] Request: OPTIONS /api/employees completed in 0ms
+2026-02-07 19:47:42.255 +05:30 [INF] Request: OPTIONS /api/departments completed in 0ms
+2026-02-07 19:47:42.273 +05:30 [INF] Request: GET /api/designations completed in 15ms
+2026-02-07 19:47:42.370 +05:30 [INF] Retrieved 0 employees (Page 1 of 0)
+2026-02-07 19:47:42.393 +05:30 [INF] Request: GET /api/departments completed in 16ms
+2026-02-07 19:47:42.413 +05:30 [INF] Request: GET /api/employees completed in 53ms
+2026-02-07 19:47:46.065 +05:30 [INF] Request: OPTIONS /api/designations completed in 0ms
+2026-02-07 19:47:47.797 +05:30 [WRN] Slow request: GET /api/designations took 1713ms
+2026-02-07 19:47:51.920 +05:30 [INF] Request: OPTIONS /api/departments completed in 0ms
+2026-02-07 19:47:51.980 +05:30 [INF] Request: GET /api/departments completed in 21ms
+2026-02-07 19:47:53.867 +05:30 [INF] Request: OPTIONS /api/employees completed in 0ms
+2026-02-07 19:47:53.901 +05:30 [INF] Retrieved 0 employees (Page 1 of 0)
+2026-02-07 19:47:53.915 +05:30 [INF] Request: GET /api/employees completed in 31ms
+2026-02-07 19:47:57.385 +05:30 [INF] Request: OPTIONS /api/departments completed in 0ms
+2026-02-07 19:47:57.386 +05:30 [INF] Request: OPTIONS /api/designations completed in 0ms
+2026-02-07 19:47:57.387 +05:30 [INF] Request: OPTIONS /api/employees completed in 0ms
+2026-02-07 19:47:57.407 +05:30 [INF] Request: GET /api/departments completed in 8ms
+2026-02-07 19:47:57.425 +05:30 [INF] Request: GET /api/designations completed in 8ms
+2026-02-07 19:47:57.436 +05:30 [INF] Retrieved 0 employees (Page 1 of 0)
+2026-02-07 19:47:57.455 +05:30 [INF] Request: GET /api/employees completed in 30ms
+2026-02-07 19:51:40.371 +05:30 [INF] Request: OPTIONS /api/employees completed in 0ms
+2026-02-07 19:51:40.408 +05:30 [INF] Retrieved 0 employees (Page 1 of 0)
+2026-02-07 19:51:40.417 +05:30 [INF] Request: GET /api/employees completed in 28ms
+2026-02-07 19:51:43.995 +05:30 [INF] Request: OPTIONS /api/departments completed in 0ms
+2026-02-07 19:51:43.996 +05:30 [INF] Request: OPTIONS /api/designations completed in 0ms
+2026-02-07 19:51:44.044 +05:30 [INF] Request: GET /api/departments completed in 28ms
+2026-02-07 19:51:43.996 +05:30 [INF] Request: OPTIONS /api/employees completed in 0ms
+2026-02-07 19:51:44.092 +05:30 [INF] Request: GET /api/designations completed in 22ms
+2026-02-07 19:51:44.098 +05:30 [INF] Retrieved 0 employees (Page 1 of 0)
+2026-02-07 19:51:44.140 +05:30 [INF] Request: GET /api/employees completed in 49ms
+2026-02-07 19:53:02.295 +05:30 [INF] Request: OPTIONS /api/employees completed in 0ms
+2026-02-07 19:53:02.339 +05:30 [INF] Retrieved 0 employees (Page 1 of 0)
+2026-02-07 19:53:02.349 +05:30 [INF] Request: GET /api/employees completed in 35ms
+2026-02-07 19:53:04.025 +05:30 [INF] Request: OPTIONS /api/departments completed in 0ms
+2026-02-07 19:53:04.025 +05:30 [INF] Request: OPTIONS /api/designations completed in 0ms
+2026-02-07 19:53:04.027 +05:30 [INF] Request: OPTIONS /api/employees completed in 0ms
+2026-02-07 19:53:04.125 +05:30 [INF] Request: GET /api/departments completed in 23ms
+2026-02-07 19:53:04.165 +05:30 [INF] Request: GET /api/designations completed in 23ms
+2026-02-07 19:53:04.238 +05:30 [INF] Retrieved 0 employees (Page 1 of 0)
+2026-02-07 19:53:04.249 +05:30 [INF] Request: GET /api/employees completed in 55ms
+2026-02-07 19:54:01.757 +05:30 [INF] Request: OPTIONS /api/employees completed in 0ms
+2026-02-07 19:54:01.846 +05:30 [INF] Retrieved 0 employees (Page 1 of 0)
+2026-02-07 19:54:01.856 +05:30 [INF] Request: GET /api/employees completed in 49ms
+2026-02-07 19:54:21.323 +05:30 [INF] Request: OPTIONS /api/employees completed in 0ms
+2026-02-07 19:54:21.871 +05:30 [INF] Retrieved 0 employees (Page 1 of 0)
+2026-02-07 19:54:21.882 +05:30 [WRN] Slow request: GET /api/employees took 536ms
+2026-02-07 19:55:33.337 +05:30 [INF] Request: OPTIONS /api/employees completed in 0ms
+2026-02-07 19:55:33.432 +05:30 [INF] Retrieved 0 employees (Page 1 of 0)
+2026-02-07 19:55:33.480 +05:30 [INF] Request: GET /api/employees completed in 91ms
+2026-02-07 19:55:34.932 +05:30 [INF] Request: OPTIONS /api/departments completed in 0ms
+2026-02-07 19:55:34.936 +05:30 [INF] Request: OPTIONS /api/designations completed in 0ms
+2026-02-07 19:55:34.944 +05:30 [INF] Request: OPTIONS /api/employees completed in 8ms
+2026-02-07 19:55:35.009 +05:30 [INF] Request: GET /api/departments completed in 34ms
+2026-02-07 19:55:35.028 +05:30 [INF] Retrieved 0 employees (Page 1 of 0)
+2026-02-07 19:55:35.095 +05:30 [INF] Request: GET /api/employees completed in 74ms
+2026-02-07 19:55:35.103 +05:30 [INF] Request: GET /api/designations completed in 118ms
+2026-02-07 19:57:27.939 +05:30 [INF] Request: OPTIONS /api/employees completed in 0ms
+2026-02-07 19:57:28.034 +05:30 [INF] Retrieved 0 employees (Page 1 of 0)
+2026-02-07 19:57:28.045 +05:30 [INF] Request: GET /api/employees completed in 45ms
+2026-02-07 19:57:32.960 +05:30 [INF] Retrieved 0 employees (Page 1 of 0)
+2026-02-07 19:57:32.970 +05:30 [INF] Request: GET /api/employees completed in 15ms
+2026-02-07 19:57:34.202 +05:30 [INF] Request: OPTIONS /api/designations completed in 0ms
+2026-02-07 19:57:34.202 +05:30 [INF] Request: OPTIONS /api/departments completed in 0ms
+2026-02-07 19:57:34.203 +05:30 [INF] Request: OPTIONS /api/employees completed in 0ms
+2026-02-07 19:57:38.890 +05:30 [INF] Retrieved 0 employees (Page 1 of 0)
+2026-02-07 19:57:38.905 +05:30 [WRN] Slow request: GET /api/designations took 4681ms
+2026-02-07 19:57:38.894 +05:30 [WRN] Slow request: GET /api/departments took 4649ms
+2026-02-07 19:57:38.933 +05:30 [WRN] Slow request: GET /api/employees took 4678ms
+2026-02-07 19:58:52.321 +05:30 [INF] Request: OPTIONS /api/employees completed in 0ms
+2026-02-07 19:58:53.473 +05:30 [INF] Employee EMP000001 created successfully by admin
+2026-02-07 19:58:53.585 +05:30 [WRN] Slow request: POST /api/employees took 1210ms
+2026-02-07 19:58:53.711 +05:30 [INF] Request: OPTIONS /api/employees completed in 0ms
+2026-02-07 19:58:53.755 +05:30 [INF] Retrieved 1 employees (Page 1 of 1)
+2026-02-07 19:58:53.767 +05:30 [INF] Request: GET /api/employees completed in 40ms
+2026-02-07 19:59:09.912 +05:30 [INF] Request: OPTIONS /api/auth/login completed in 0ms
+2026-02-07 19:59:10.630 +05:30 [INF] User admin logged in successfully
+2026-02-07 19:59:10.636 +05:30 [WRN] Slow request: POST /api/auth/login took 708ms
+2026-02-07 19:59:10.680 +05:30 [INF] Request: OPTIONS /api/employees completed in 0ms
+2026-02-07 19:59:10.681 +05:30 [INF] Request: OPTIONS /api/designations completed in 0ms
+2026-02-07 19:59:10.714 +05:30 [INF] Request: OPTIONS /api/departments completed in 31ms
+2026-02-07 19:59:10.732 +05:30 [INF] Retrieved 1 employees (Page 1 of 1)
+2026-02-07 19:59:10.742 +05:30 [INF] Request: GET /api/designations completed in 8ms
+2026-02-07 19:59:10.747 +05:30 [INF] Request: GET /api/employees completed in 20ms
+2026-02-07 19:59:10.749 +05:30 [INF] Request: GET /api/departments completed in 9ms
+2026-02-07 19:59:13.404 +05:30 [INF] Request: OPTIONS /api/employees completed in 0ms
+2026-02-07 19:59:13.783 +05:30 [INF] Retrieved 1 employees (Page 1 of 1)
+2026-02-07 19:59:13.886 +05:30 [INF] Request: GET /api/employees completed in 122ms
+2026-02-07 19:59:28.526 +05:30 [INF] Request: OPTIONS /api/employees completed in 0ms
+2026-02-07 19:59:28.541 +05:30 [INF] Retrieved 1 employees (Page 1 of 1)
+2026-02-07 19:59:28.548 +05:30 [INF] Request: GET /api/employees completed in 10ms
+2026-02-07 19:59:31.363 +05:30 [INF] Request: OPTIONS /api/departments completed in 0ms
+2026-02-07 19:59:31.366 +05:30 [INF] Request: OPTIONS /api/designations completed in 0ms
+2026-02-07 19:59:31.371 +05:30 [INF] Request: OPTIONS /api/employees completed in 0ms
+2026-02-07 19:59:31.384 +05:30 [INF] Request: GET /api/departments completed in 5ms
+2026-02-07 19:59:31.439 +05:30 [INF] Request: GET /api/designations completed in 9ms
+2026-02-07 19:59:31.471 +05:30 [INF] Retrieved 1 employees (Page 1 of 1)
+2026-02-07 19:59:31.493 +05:30 [INF] Request: GET /api/employees completed in 30ms
+2026-02-07 20:00:35.376 +05:30 [INF] Request: OPTIONS /api/employees completed in 0ms
+2026-02-07 20:00:35.447 +05:30 [INF] Retrieved 1 employees (Page 1 of 1)
+2026-02-07 20:00:35.463 +05:30 [INF] Request: GET /api/employees completed in 52ms
+2026-02-07 20:02:29.227 +05:30 [INF] Request: OPTIONS /api/employees completed in 0ms
+2026-02-07 20:04:39.024 +05:30 [INF] Starting Employee Management API
+2026-02-07 20:05:02.222 +05:30 [INF] Request: OPTIONS /api/employees completed in 8ms
+2026-02-07 20:05:04.467 +05:30 [WRN] You do not have a valid license key for the Lucky Penny software AutoMapper. This is allowed for development and testing scenarios. If you are running in production you are required to have a licensed version. Please visit https://luckypennysoftware.com to obtain a valid license.
+2026-02-07 20:11:17.426 +05:30 [INF] Starting Employee Management API
+2026-02-07 20:11:39.251 +05:30 [INF] Request: OPTIONS /api/employees completed in 32ms
+2026-02-07 20:11:42.778 +05:30 [WRN] You do not have a valid license key for the Lucky Penny software AutoMapper. This is allowed for development and testing scenarios. If you are running in production you are required to have a licensed version. Please visit https://luckypennysoftware.com to obtain a valid license.
+2026-02-07 20:23:27.700 +05:30 [INF] Starting Employee Management API
+2026-02-07 20:24:02.983 +05:30 [INF] Request: OPTIONS /api/employees completed in 8ms
+2026-02-07 20:24:05.167 +05:30 [WRN] You do not have a valid license key for the Lucky Penny software AutoMapper. This is allowed for development and testing scenarios. If you are running in production you are required to have a licensed version. Please visit https://luckypennysoftware.com to obtain a valid license.
+2026-02-07 20:24:52.204 +05:30 [INF] Starting Employee Management API
+2026-02-07 20:25:03.947 +05:30 [INF] Request: OPTIONS /api/employees completed in 11ms
+2026-02-07 20:25:06.856 +05:30 [WRN] You do not have a valid license key for the Lucky Penny software AutoMapper. This is allowed for development and testing scenarios. If you are running in production you are required to have a licensed version. Please visit https://luckypennysoftware.com to obtain a valid license.
+2026-02-07 20:25:42.182 +05:30 [INF] Retrieved 1 employees (Page 1 of 1)
+2026-02-07 20:25:48.470 +05:30 [WRN] Slow request: GET /api/employees took 44167ms
+2026-02-07 20:25:53.955 +05:30 [INF] Request: OPTIONS /api/designations completed in 2ms
+2026-02-07 20:25:53.955 +05:30 [INF] Request: OPTIONS /api/employees completed in 0ms
+2026-02-07 20:25:53.955 +05:30 [INF] Request: OPTIONS /api/departments completed in 4ms
+2026-02-07 20:25:59.487 +05:30 [INF] Retrieved 1 employees (Page 1 of 1)
+2026-02-07 20:25:59.506 +05:30 [WRN] Slow request: GET /api/employees took 5507ms
+2026-02-07 20:25:59.596 +05:30 [INF] Request: GET /api/departments completed in 428ms
+2026-02-07 20:25:59.605 +05:30 [WRN] Slow request: GET /api/designations took 5633ms
+2026-02-07 20:27:00.635 +05:30 [INF] Request: OPTIONS /api/employees completed in 1ms
+2026-02-07 20:27:02.694 +05:30 [INF] Employee EMP000002 created successfully by admin
+2026-02-07 20:27:02.852 +05:30 [WRN] Slow request: POST /api/employees took 2195ms
+2026-02-07 20:27:03.002 +05:30 [INF] Request: OPTIONS /api/employees completed in 0ms
+2026-02-07 20:27:03.135 +05:30 [INF] Retrieved 2 employees (Page 1 of 1)
+2026-02-07 20:27:03.149 +05:30 [INF] Request: GET /api/employees completed in 116ms
+2026-02-07 20:27:09.946 +05:30 [INF] Request: OPTIONS /api/employees/2 completed in 0ms
+2026-02-07 20:27:12.563 +05:30 [INF] Employee 2 deleted successfully
+2026-02-07 20:27:12.585 +05:30 [WRN] Slow request: DELETE /api/employees/2 took 2613ms
+2026-02-07 20:27:12.623 +05:30 [INF] Request: OPTIONS /api/employees completed in 0ms
+2026-02-07 20:27:12.712 +05:30 [INF] Retrieved 1 employees (Page 1 of 1)
+2026-02-07 20:27:12.726 +05:30 [INF] Request: GET /api/employees completed in 90ms
+2026-02-07 20:27:21.993 +05:30 [INF] Request: OPTIONS /api/employees completed in 0ms
+2026-02-07 20:27:21.998 +05:30 [INF] Request: OPTIONS /api/departments completed in 0ms
+2026-02-07 20:27:22.001 +05:30 [INF] Request: OPTIONS /api/designations completed in 0ms
+2026-02-07 20:27:22.050 +05:30 [INF] Retrieved 1 employees (Page 1 of 1)
+2026-02-07 20:27:22.070 +05:30 [INF] Request: GET /api/employees completed in 44ms
+2026-02-07 20:27:22.073 +05:30 [INF] Request: GET /api/departments completed in 16ms
+2026-02-07 20:27:22.128 +05:30 [INF] Request: GET /api/designations completed in 62ms
+2026-02-07 20:27:25.091 +05:30 [INF] Request: GET /api/departments completed in 10ms
+2026-02-07 20:27:28.645 +05:30 [INF] Request: OPTIONS /api/employees completed in 0ms
+2026-02-07 20:27:28.725 +05:30 [INF] Retrieved 1 employees (Page 1 of 1)
+2026-02-07 20:27:28.735 +05:30 [INF] Request: GET /api/employees completed in 24ms
+2026-02-07 20:33:33.691 +05:30 [INF] Request: OPTIONS /api/departments completed in 0ms
+2026-02-07 20:33:33.730 +05:30 [INF] Request: OPTIONS /api/employees completed in 0ms
+2026-02-07 20:33:33.727 +05:30 [INF] Request: OPTIONS /api/designations completed in 0ms
+2026-02-07 20:33:33.898 +05:30 [INF] Request: GET /api/departments completed in 118ms
+2026-02-07 20:33:33.906 +05:30 [INF] Request: GET /api/designations completed in 81ms
+2026-02-07 20:33:33.940 +05:30 [INF] Retrieved 1 employees (Page 1 of 1)
+2026-02-07 20:33:33.947 +05:30 [INF] Request: GET /api/employees completed in 144ms
+2026-02-07 20:33:50.089 +05:30 [INF] Request: OPTIONS /api/employees completed in 0ms
+2026-02-07 20:33:50.096 +05:30 [INF] Request: OPTIONS /api/departments completed in 0ms
+2026-02-07 20:33:50.097 +05:30 [INF] Request: OPTIONS /api/designations completed in 0ms
+2026-02-07 20:33:50.160 +05:30 [INF] Request: GET /api/departments completed in 36ms
+2026-02-07 20:33:50.162 +05:30 [INF] Request: GET /api/designations completed in 27ms
+2026-02-07 20:33:50.233 +05:30 [INF] Retrieved 1 employees (Page 1 of 1)
+2026-02-07 20:33:50.245 +05:30 [INF] Request: GET /api/employees completed in 131ms
+2026-02-07 20:33:58.694 +05:30 [INF] Request: OPTIONS /api/departments completed in 0ms
+2026-02-07 20:33:58.723 +05:30 [INF] Request: GET /api/departments completed in 9ms
+2026-02-07 20:34:00.776 +05:30 [INF] Request: OPTIONS /api/employees completed in 0ms
+2026-02-07 20:34:00.805 +05:30 [INF] Retrieved 1 employees (Page 1 of 1)
+2026-02-07 20:34:00.849 +05:30 [INF] Request: GET /api/employees completed in 55ms
+2026-02-07 20:34:01.830 +05:30 [INF] Request: OPTIONS /api/designations completed in 0ms
+2026-02-07 20:34:01.855 +05:30 [INF] Request: GET /api/designations completed in 6ms
+2026-02-07 20:34:03.674 +05:30 [INF] Retrieved 1 employees (Page 1 of 1)
+2026-02-07 20:34:03.697 +05:30 [INF] Request: GET /api/employees completed in 31ms

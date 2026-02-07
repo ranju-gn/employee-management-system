@@ -1,0 +1,21 @@
+.quick-actions {
+  display: flex;
+  gap: 16px;
+  flex-wrap: wrap;
+  margin-top: 20px;
+
+  button {
+    padding: 16px 32px;
+    font-size: 16px;
+
+    mat-icon {
+      margin-right: 8px;
+    }
+  }
+}
+
+h2 {
+  font-size: 24px;
+  font-weight: 600;
+  color: #333;
+}

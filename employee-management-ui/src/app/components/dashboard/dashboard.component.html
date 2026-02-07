@@ -1,0 +1,69 @@
+<div class="container">
+  <div class="page-header">
+    <h1>Dashboard</h1>
+  </div>
+
+  <div class="stats-container">
+    <div class="stat-card" style="border-left: 4px solid #667eea">
+      <div
+        class="stat-icon"
+        style="background: rgba(102, 126, 234, 0.1); color: #667eea"
+      >
+        <mat-icon>people</mat-icon>
+      </div>
+      <div class="stat-value">{{ stats.totalEmployees }}</div>
+      <div class="stat-label">Total Employees</div>
+    </div>
+
+    <div class="stat-card" style="border-left: 4px solid #26de81">
+      <div
+        class="stat-icon"
+        style="background: rgba(38, 222, 129, 0.1); color: #26de81"
+      >
+        <mat-icon>check_circle</mat-icon>
+      </div>
+      <div class="stat-value">{{ stats.activeEmployees }}</div>
+      <div class="stat-label">Active Employees</div>
+    </div>
+
+    <div class="stat-card" style="border-left: 4px solid #fc5c65">
+      <div
+        class="stat-icon"
+        style="background: rgba(252, 92, 101, 0.1); color: #fc5c65"
+      >
+        <mat-icon>business</mat-icon>
+      </div>
+      <div class="stat-value">{{ stats.totalDepartments }}</div>
+      <div class="stat-label">Departments</div>
+    </div>
+
+    <div class="stat-card" style="border-left: 4px solid #fd9644">
+      <div
+        class="stat-icon"
+        style="background: rgba(253, 150, 68, 0.1); color: #fd9644"
+      >
+        <mat-icon>work</mat-icon>
+      </div>
+      <div class="stat-value">{{ stats.totalDesignations }}</div>
+      <div class="stat-label">Designations</div>
+    </div>
+  </div>
+
+  <div class="card-container">
+    <h2>Quick Actions</h2>
+    <div class="quick-actions">
+      <button mat-raised-button color="primary" routerLink="/employees">
+        <mat-icon>people</mat-icon>
+        Manage Employees
+      </button>
+      <button mat-raised-button color="accent" routerLink="/departments">
+        <mat-icon>business</mat-icon>
+        Manage Departments
+      </button>
+      <button mat-raised-button routerLink="/designations">
+        <mat-icon>work</mat-icon>
+        Manage Designations
+      </button>
+    </div>
+  </div>
+</div>

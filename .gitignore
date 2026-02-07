@@ -1,0 +1,14 @@
+/.vs
+/EmployeeManagement.API/bin
+/EmployeeManagement.API/obj
+/EmployeeManagement.Application/bin
+/EmployeeManagement.Application/obj
+/EmployeeManagement.Domain/bin
+/EmployeeManagement.Domain/obj
+/EmployeeManagement.Infrastructure/bin
+/EmployeeManagement.Infrastructure/obj
+/EmployeeManagement.Tests/bin
+/EmployeeManagement.Tests/obj
+/employee-management-ui/.angular
+/employee-management-ui/.vscode
+/employee-management-ui/node_modules
