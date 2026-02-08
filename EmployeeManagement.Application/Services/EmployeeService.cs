@@ -202,7 +202,8 @@ namespace EmployeeManagement.Application.Services
 
         private async Task<string> GenerateEmployeeCodeAsync(CancellationToken cancellationToken)
         {
-            var count = await _unitOfWork.Employees.CountAsync(cancellationToken: cancellationToken);
+            // Now counts ALL employees including soft-deleted ones
+            var count = await _unitOfWork.Employees.CountAllAsync(cancellationToken: cancellationToken);
             return $"EMP{(count + 1):D6}";
         }
     }

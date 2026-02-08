@@ -15,5 +15,7 @@ namespace EmployeeManagement.Application.Common.Interfaces
         Task DeleteAsync(T entity, CancellationToken cancellationToken = default);
         Task<bool> ExistsAsync(Expression<Func<T, bool>> predicate, CancellationToken cancellationToken = default);
         Task<int> CountAsync(Expression<Func<T, bool>>? predicate = null, CancellationToken cancellationToken = default);
+        Task<int> CountAllAsync(Expression<Func<T, bool>>? predicate = null, CancellationToken cancellationToken = default);
+
     }
 }

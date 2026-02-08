@@ -63,5 +63,11 @@ namespace EmployeeManagement.Infrastructure.Repositories
                 ? await _dbSet.CountAsync(cancellationToken)
                 : await _dbSet.CountAsync(predicate, cancellationToken);
         }
+        public async Task<int> CountAllAsync(Expression<Func<T, bool>>? predicate = null, CancellationToken cancellationToken = default)
+        {
+            return predicate == null
+                ? await _dbSet.IgnoreQueryFilters().CountAsync(cancellationToken)
+                : await _dbSet.IgnoreQueryFilters().CountAsync(predicate, cancellationToken);
+        }
     }
 }
